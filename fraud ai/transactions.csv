@@ -1,0 +1,16 @@
+amount,location,device,type,is_fraud
+1000,India,Mobile,ONLINE,0
+70000,Russia,Unknown,ONLINE,1
+500,India,Mobile,UPI,0
+90000,Russia,Laptop,ONLINE,1
+2000,India,Mobile,ATM,0
+85000,USA,Unknown,ONLINE,1
+1500,India,Tablet,UPI,0
+65000,Russia,Unknown,ATM,1
+3000,India,Laptop,ONLINE,0
+95000,Russia,Unknown,ONLINE,1
+4000,India,Mobile,UPI,0
+72000,USA,Unknown,ONLINE,1
+2500,India,Tablet,ATM,0
+81000,Russia,Unknown,ONLINE,1
+1200,India,Mobile,ONLINE,0
