@@ -1,0 +1,26 @@
+# Java
+target/
+*.class
+.settings/
+.project
+.classpath
+
+# React
+node_modules/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# VS Code / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
