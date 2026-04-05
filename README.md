@@ -67,27 +67,23 @@ The system analyzes transactions, calculates fraud risk, allows admin control ov
 ## Project Structure
 
 ```text
-AI FRAUD DETECTION SYSTEM
+AI-Fraud-Detection-System
 │
 ├── Spring Boot Backend
-│   ├── controller
-│   ├── service
-│   ├── model
-│   ├── repository
-│   ├── security
-│   ├── config
-│   └── resources
-│
-├── Frontend
 │   ├── src
-│   │   ├── components
-│   │   ├── services
-│   │   └── styles
+│   └── pom.xml
 │
-├── Fraud AI
+├── Froentend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── package-lock.json
+│
+├── Fraud-AI
 │   ├── app.py
 │   ├── train_model.py
 │   ├── transactions.csv
 │   └── fraud_model.pkl
 │
+├── .gitignore
 └── README.md
