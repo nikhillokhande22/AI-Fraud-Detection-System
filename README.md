@@ -57,31 +57,6 @@ The system analyzes transactions, calculates fraud risk, allows admin control ov
 - Scikit-learn
 - Joblib
 
-
-## Project Structure
-
-```text
-AI-Fraud-Detection-System
-│
-├── Spring Boot Backend
-│   ├── src
-│   └── pom.xml
-│
-├── Frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── package-lock.json
-│
-├── Fraud-AI
-│   ├── app.py
-│   ├── train_model.py
-│   ├── transactions.csv
-│   └── fraud_model.pkl
-│
-├── screenshots
-├── .gitignore
-└── README.md
 ## Authentication and Authorization
 
 The system uses JWT authentication for protected routes.
@@ -91,6 +66,7 @@ The system uses JWT authentication for protected routes.
 - `/api/transactions/**` requires authentication
 - `/api/users/**` requires authentication
 - `/admin/**` is restricted to users with ADMIN role
+
 ## Screenshots
 
 ### Dashboard Overview 1
@@ -116,6 +92,7 @@ The system uses JWT authentication for protected routes.
 
 ### User Management
 ![Users](./screenshots/users.png)
+
 ## Author
 
 **Nikhil Lokhande**
@@ -126,3 +103,28 @@ LinkedIn: [https://www.linkedin.com/in/nikhil-lokhande-305805216](https://www.li
 ## License
 
 This project is created for portfolio and learning purposes.
+
+## Project Structure
+
+```text
+AI-Fraud-Detection-System
+│
+├── Spring Boot Backend
+│   ├── src
+│   └── pom.xml
+│
+├── Frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── package-lock.json
+│
+├── Fraud-AI
+│   ├── app.py
+│   ├── train_model.py
+│   ├── transactions.csv
+│   └── fraud_model.pkl
+│
+├── screenshots
+├── .gitignore
+└── README.md
